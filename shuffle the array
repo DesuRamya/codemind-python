@@ -1,0 +1,8 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+r=int(input())
+l1=l[0:r]
+l2=l[r:n]
+for i,j in zip(l1,l2):
+    print(i,j,end=' ')
