@@ -1,0 +1,12 @@
+# codemind-python
+n=int(input())
+for i in range(n):
+    c=int(input())
+    l=list(map(int,input().split()))
+    l1=list(map(int,input().split()))
+    l=l+l1
+    s=len(set(l))
+    if s>=c:
+        print("YES")
+    else:
+        print("NO")
