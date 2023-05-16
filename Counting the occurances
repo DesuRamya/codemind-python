@@ -1,0 +1,7 @@
+# codemind-python
+s=input()
+r=input()
+if r in s:
+    print(s.count(r))
+else:
+    print("-1")
