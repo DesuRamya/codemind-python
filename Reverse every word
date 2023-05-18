@@ -1,0 +1,10 @@
+# codemind-python
+l=list(map(str,input().split()))
+l1=[]
+for i in l:
+    s=''
+    for j in i:
+        s=j+s
+    l1.append(s)
+for i in l1:
+    print(i,end=' ')
