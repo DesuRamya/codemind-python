@@ -1,0 +1,15 @@
+# codemind-python
+def fun(i):
+    ll=[]
+    for s in i:
+        ll.append(ord(s))
+    return abs(min(ll)-max(ll))
+    
+l=list(map(str,input().split()))
+r=[]
+for i in l:
+    nl=fun(i)
+    r.append(nl)
+for i in r:
+    print(i,end=' ')    
+        
