@@ -1,0 +1,13 @@
+# codemind-python
+n=int(input())
+for i in range(n):
+    m=int(input())
+    l=[]
+    for j in range(m):
+        if m==j*j:
+            l.append(j)
+            break
+    if len(l)>0:
+        print('True')
+    else:
+        print('False')
