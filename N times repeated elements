@@ -1,0 +1,17 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+nl=[]
+re=[]
+for i in l:
+    nl.append(l.count(i))
+for i in range(len(nl)):
+    if nl[i]==k:
+        if l[i] not in re:
+            re.append(l[i])
+if len(re)>0:
+    for i in re:
+        print(i,end=' ')
+else:
+    print("-1")
