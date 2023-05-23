@@ -1,0 +1,12 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+nl=[]
+re=[]
+for i in l:
+    nl.append(l.count(i))
+for i in range(len(nl)):
+    if l[i]==nl[i]:
+        if l[i] not in re:
+            re.append(l[i])
+print(len(re))
