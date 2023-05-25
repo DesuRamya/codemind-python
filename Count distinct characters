@@ -1,0 +1,15 @@
+# codemind-python
+n=input()
+s=str.lower(n)
+d={}
+for i in s:
+    if ord(i)!=32:
+        if i in d.keys():
+            d[i]+=1
+        else:
+            d[i]=1
+c=0
+for k,v in d.items():
+    if v>0:
+        c=c+1
+print(c)
