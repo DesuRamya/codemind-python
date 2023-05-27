@@ -1,0 +1,17 @@
+# codemind-python
+n=input()
+d={}
+for i in n:
+    if ord(i)!=32:
+        if i in d.keys():
+            d[i]+=1
+        else:
+            d[i]=1
+l=[]
+for k,v in d.items():
+    if v==1:
+        l.append(k)
+if len(l)>0:
+    print(l[0])
+else:
+    print(-1)
