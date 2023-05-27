@@ -1,0 +1,14 @@
+# codemind-python
+s=input()
+r=input()
+l=[]
+for i in range(len(s)):
+    if s[i]==r:
+        l.append(i)
+        break
+if len(l)==0:
+    print('False')
+else:
+    print('True')
+    print(l[0])
+    
