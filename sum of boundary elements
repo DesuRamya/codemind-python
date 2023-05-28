@@ -1,0 +1,13 @@
+# codemind-python
+n,m=map(int,input().split())
+nl=[]
+for i in range(n):
+    l=list(map(int,input().split()))
+    nl.append(l)
+s1=0
+s2=0
+for i in range(len(nl)):
+    for j in range(len(nl)):
+        if i==0 or j==0 or i==n-1 or j==m-1:
+            s1=s1+nl[i][j]
+print(s1)
