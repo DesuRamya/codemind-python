@@ -1,0 +1,11 @@
+# codemind-python
+n,m=map(int,input().split())
+ll=[]
+for i in range(n):
+    l=list(map(int,input().split()))
+    ll.append(l)
+for i in range(m):
+    su=0
+    for j in range(n):
+        su=su+ll[j][i]
+    print(su,end=' ')
