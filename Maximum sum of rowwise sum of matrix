@@ -1,0 +1,8 @@
+# codemind-python
+n,m=map(int,input().split())
+lr=[]
+for i in range(n):
+    l=list(map(int,input().split()))
+    s=sum(l)
+    lr.append(s)
+print(max(lr))
