@@ -1,0 +1,7 @@
+# codemind-python
+import itertools
+s=input()
+l=list(s)
+p=itertools.permutations(l,len(l))
+for i in p:
+    print("".join(i))
