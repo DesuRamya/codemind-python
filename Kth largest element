@@ -1,0 +1,6 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+r=int(input())
+se=list(set(l))
+print(se[-r])
