@@ -1,0 +1,3 @@
+# codemind-python
+n=input()
+print(eval(n))
