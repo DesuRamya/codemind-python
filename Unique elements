@@ -1,0 +1,14 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+l1=set(l)
+ll=[]
+if len(l1)==len(l):
+    for i in l:
+        print(i,end=' ')
+else:
+    for i in l:
+        if i not in ll:
+            ll.append(i)
+    for i in ll:
+        print(i,end=' ')
