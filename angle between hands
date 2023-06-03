@@ -1,0 +1,9 @@
+# codemind-python
+s=input()
+x=list(s.split(':'))
+h=int(x[0])%12*30+int(x[1])*0.5
+m=int(x[1])*6
+angle=(abs(m-h))
+if angle>180:
+    angle=360.0-angle
+print(angle)
