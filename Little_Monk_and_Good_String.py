@@ -1,0 +1,10 @@
+s=input()
+c=0
+maxx=0
+for i in s:
+    if i in 'aeiou':
+        c=c+1
+        maxx=max(c,maxx)
+    else:
+        c=0
+print(maxx)
