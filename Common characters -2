@@ -1,0 +1,11 @@
+# codemind-python
+s1=input()
+s2=input()
+x1=str.lower(s1)
+x2=str.lower(s2)
+l=[]
+for i in x1:
+    if i in x2:
+        if i not in l and i!=' ':
+            l.append(i)
+print(len(l))
