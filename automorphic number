@@ -1,0 +1,8 @@
+# codemind-python
+n=int(input())
+s=str(n*n)
+n1=str(n)
+if s.endswith(n1):
+    print('Automorphic Number')
+else:
+    print('Not an Automorphic Number')
