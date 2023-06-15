@@ -1,0 +1,22 @@
+# codemind-python
+def isprime(n):
+    c=0
+    for i in range(1,n+1):
+        if n%i==0:
+            c=c+1
+    if c==2:
+        return True
+    else:
+        return False
+n=int(input())
+r=[]
+for i in range(2,n+1):
+    for j in range(i+2,n+1):
+        if i*j==n and isprime(i) and isprime(j):
+            r.append((i,j))
+if len(r)==0:
+    print('-1')
+else:
+    for i in r:
+        for j in i:
+            print(j,end=' ')
