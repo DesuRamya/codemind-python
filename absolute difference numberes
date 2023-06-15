@@ -1,0 +1,6 @@
+# codemind-python
+n,m=map(int,input().split())
+r1=n%10**m
+s=len(str(n))
+r2=n//10**(s-m)
+print(abs(r1-r2))
