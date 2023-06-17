@@ -1,0 +1,4 @@
+# codemind-python
+a,b,c=map(int,input().split())
+r=(b-a)//c
+print(r)
