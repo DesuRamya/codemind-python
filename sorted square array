@@ -1,0 +1,9 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+nl=[]
+for i in l:
+    nl.append(i*i)
+nl.sort()
+for i in nl:
+    print(i,end=' ')
