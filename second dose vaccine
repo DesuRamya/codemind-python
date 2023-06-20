@@ -1,0 +1,11 @@
+# codemind-python
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    if a in range(b,c):
+        print('Take second dose now')
+    else:
+        if a<b :
+            print('Too Early')
+        else:
+            print('Too Late')
