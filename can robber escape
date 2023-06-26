@@ -1,0 +1,12 @@
+# codemind-python
+n=int(input())
+count=0
+#for i in range(n):
+a=list(map(int,input().split()))
+for j in a:
+    if j%2!=0:
+        count+=1
+if count<=2:
+    print("YES")
+else:
+    print("NO")
