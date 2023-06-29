@@ -1,0 +1,14 @@
+# codemind-python
+n=int(input())
+a,b=0,1
+c=a+b
+l=[]
+while c<=n:
+    c=a+b
+    a=b
+    b=c
+    l.append(a)
+if n in l:
+    print("True")
+else:
+    print("False")
