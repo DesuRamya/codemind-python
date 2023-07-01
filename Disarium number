@@ -1,0 +1,13 @@
+# codemind-python
+def disarium(n):
+    c=len(str(n))
+    s=0
+    x=n
+    while(x!=0):
+        r=x%10
+        s+=r**c
+        c=c-1
+        x=x//10
+    return (s==n)
+n=int(input(
+print(disarium(n))
