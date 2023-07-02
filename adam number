@@ -1,0 +1,16 @@
+# codemind-python
+n=int(input())
+t=n
+s1=n*n
+s=0
+while t!=0:
+    r=t%10
+    s=s*10+r
+    t=t//10
+s2=s*s
+su=0
+while s2!=0:
+    r1=s2%10
+    su=su*10+r1
+    s2=s2//10
+print(su==s1)
