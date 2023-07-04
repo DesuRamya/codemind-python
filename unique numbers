@@ -1,0 +1,11 @@
+# codemind-python
+n=int(input())
+l=[]
+s=set()
+for i in str(n):
+    l.append(i)
+    s.add(i)
+if len(l)==len(s):
+    print("Unique Number")
+else:
+    print("Not Unique Number")
