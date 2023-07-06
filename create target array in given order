@@ -1,0 +1,11 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+m=int(input())
+l1=list(map(int,input().split()))
+target=[]
+for i,j in zip(l,l1):
+    #print(i,j)
+    target.insert(j,i)
+for i in target:
+    print(i,end=' ')
