@@ -1,0 +1,14 @@
+# codemind-python
+n=int(input())
+l=[]
+for i in range(n):
+    r=int(input())
+    l.append(r)
+t=int(input())
+f=0
+for i in l:
+    if i<=t:
+        f=f+1
+    else:
+        f=f+2
+print(f)
