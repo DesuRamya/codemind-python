@@ -1,0 +1,7 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+s=set(l)
+l1=list(s)
+for i in l1:
+    print(i,end=' ')
