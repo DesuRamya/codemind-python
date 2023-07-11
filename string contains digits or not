@@ -1,0 +1,13 @@
+n=int(input())
+for i in range(n):
+    l=[]
+    s=input()
+    for j in s:
+        if ord(j) in range(48,58):
+            l.append(j)
+    if len(l)==0:
+        print("No")
+    else:
+        print("Yes")
+
+# codemind-python
