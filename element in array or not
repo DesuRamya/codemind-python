@@ -1,0 +1,5 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+r=int(input())
+print(r in l)
