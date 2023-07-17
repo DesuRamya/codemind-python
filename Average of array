@@ -1,0 +1,6 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+r=sum(l)
+a=r/n
+print("%.2f"%a)
