@@ -1,0 +1,4 @@
+# codemind-python
+s,t,b=map(int,input().split())
+c=s*t*b
+print(c,'KB',sep='')
