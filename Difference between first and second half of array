@@ -1,0 +1,12 @@
+# codend-python
+#Difference between first half and second half of an array
+import math
+n=int(input())
+l=list(map(int,input().split()))
+r=n//2
+s=0;s1=0
+for i in range(r):
+    s=s+l[i]
+for i in range(r,n):
+    s1=s1+l[i]
+print(abs(s-s1))
