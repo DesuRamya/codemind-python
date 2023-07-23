@@ -1,0 +1,15 @@
+# codemind-python
+def ssum(n):
+    s=0
+    while(n!=0):
+        r=n%10
+        s=s+r
+        n=n//10
+    return s
+n=int(input())
+l=list(map(int,input().split()))
+r=0
+for i in l:
+    s=ssum(i)
+    r=r+s
+print(r)
