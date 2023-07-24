@@ -1,0 +1,12 @@
+# codnd-python
+#sum of first half and second half of array
+import math
+n=int(input())
+l=list(map(int,input().split()))
+r=n//2
+s=0;s1=0
+for i in range(r):
+    s=s+l[i]
+for i in range(r,n):
+    s1=s1+l[i]
+print(s,s1,sep='\n')
