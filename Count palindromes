@@ -1,0 +1,18 @@
+# codemnd-python
+#Count palindromes
+
+def ispalin(n):
+    s=0
+    m=n
+    while(m!=0):
+        r=m%10
+        m=m//10
+        s=s*10+r
+    return (s==n)
+n=int(input())
+l=list(map(int,input().split()))
+c=0
+for i in l:
+    if(ispalin(i)):
+        c=c+1
+print(c)
