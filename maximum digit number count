@@ -1,0 +1,30 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+ll=[]
+a=len(str(max(l)))
+for i in l:
+    s=len(str(i))
+    if s==a:
+        ll.append(i)
+for i in ll:
+    print(i,end=' ')
+
+def fun(n):
+    c=0
+    while(n!=0):
+        r=n%10
+        n=n//10
+        c=c+1
+    return c
+n=int(input())
+ll=[]
+l=list(map(int,input().split()))
+for i in l:
+    c=fun(i)
+    ll.append(c)
+m=max(ll)
+for i in l:
+    s=fun(i)
+    if s==m:
+        print(i,end=' ')
