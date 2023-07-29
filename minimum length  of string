@@ -1,0 +1,7 @@
+# codemind-python
+l=list(map(str,input().split()))
+c=0
+ll=[]
+for i in l:
+    ll.append(len(i))
+print(min(ll))
