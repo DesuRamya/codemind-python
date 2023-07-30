@@ -1,0 +1,15 @@
+# codemind-python
+l=list(map(str,input().split()))
+l1=[]
+j=0
+for i in l:
+    if j%2==0:
+        s=''
+        for k in i:
+            s=k+s
+        l1.append(s)
+    else:
+        l1.append(i)
+    j=j+1
+for i in l1:
+    print(i,end=' ')
