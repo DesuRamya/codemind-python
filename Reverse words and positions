@@ -1,0 +1,8 @@
+# codemind-python
+l=list(map(str,input().split()))
+l1=[]
+for i in l:
+    r=i[::-1]
+    l1.insert(0,r)
+for i in l1:
+    print(i,end=' ')
