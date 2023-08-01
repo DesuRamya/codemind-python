@@ -1,0 +1,13 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+ll=[];l1=[]
+for i in l:
+    if i%2==0:
+        ll.append(i)
+    elif i%2!=0:
+        l1.append(i)
+for i in ll:
+    print(i,end=' ')
+for i in l1:
+    print(i,end=' ')
