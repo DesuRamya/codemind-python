@@ -1,0 +1,27 @@
+# codemind-python
+def isprime(x):
+    c=0
+    for i in range(1,x+1):
+        if (x%i==0):
+            c=c+1
+    if c==2:
+        return True
+    else:
+        return False
+m=int(input())
+for j in range(m,1,-1):
+    if (isprime(j)):
+        r=j
+        break
+for j in range(m,2000000):
+    if (isprime(j)):
+        r1=j
+        break
+a1=abs(m-r)
+a2=abs(m-r1)
+if a1>a2:
+    print(a2)
+elif a1<a2:
+    print(a1)
+elif a1==a2:
+    print(a1)
