@@ -1,0 +1,12 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+a,b=map(int,input().split())
+ll=[]
+for i in range(n):
+    if l[i]<a or l[i]>b:
+        ll.append(l[i])
+if len(ll)!=0:
+    print(max(ll))
+else:
+    print('-1')
