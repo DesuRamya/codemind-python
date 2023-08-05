@@ -1,0 +1,13 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+a,b=map(int,input().split())
+ll=[]
+for i in range(len(l)):
+    if l[i]<a or l[i]>b:
+        ll.append(l[i])
+if len(ll)==0:
+    print('-1')
+else:
+    for i in ll:
+        print(i,end=' ')
