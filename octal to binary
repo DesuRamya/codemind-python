@@ -1,0 +1,7 @@
+# codemind-python
+n=input()
+bn=int(n,8)
+bn=bin(bn)
+bs=str(bn)
+l=len(bs)
+print(bs[2:l])
