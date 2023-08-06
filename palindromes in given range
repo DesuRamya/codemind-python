@@ -1,0 +1,14 @@
+# codemind-python
+def ispalin(n):
+    s=0
+    t=n
+    while(n!=0):
+        r=n%10
+        s=s*10+r
+        n=n//10
+    return (t==s)
+n=int(input())
+m=int(input())
+for i in range(n,m+1):
+    if (ispalin(i)):
+        print(i,end=' ')
