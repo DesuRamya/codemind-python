@@ -1,0 +1,16 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+a,b=map(int,input().split())
+nl=[]
+for i in range(n):
+    if l[i]<a or l[i]>b:
+        nl.append(l[i])
+r=[]
+for i in l:
+    if i not in nl:
+        r.append(i)
+if len(r)!=0:
+    print(min(r))
+else:
+    print('-1')
