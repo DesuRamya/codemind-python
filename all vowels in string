@@ -1,0 +1,13 @@
+# codemind-python
+s=input()
+s1='AEIOU'
+s2='aeiou'
+lu=[];ll=[]
+for i in s:
+    if i in s1:
+        lu.append(i)
+    elif i in s2:
+        ll.append(i)
+lr=set(ll)
+ur=set(lu)
+print(len(lr)==5 or len(ur)==5)
