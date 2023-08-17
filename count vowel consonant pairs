@@ -1,0 +1,13 @@
+# codemind-python
+l=input()
+c=0
+ss='aeiouAEIOU'
+ll=[]
+n=len(l)
+for i in range(n):
+    if l[i]in ss and l[n-i-1] not in ss :#or l[n-i-1] in ss and l[i] not in ss:
+        ll.append((l[i],l[n-i-1]))
+for i in ll:
+    if ord(i[0])!=32 and ord(i[1])!=32:
+        c=c+1
+print(c)
