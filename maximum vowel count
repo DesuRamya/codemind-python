@@ -1,0 +1,11 @@
+# codemind-python
+l=list(map(str,input().split()))
+ll=[]
+for i in l:
+    str.lower(i)
+    c=0
+    for s in i:
+        if s in 'aeiou':
+            c=c+1
+    ll.append(c)
+print(max(ll))
