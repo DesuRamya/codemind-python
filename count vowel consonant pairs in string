@@ -1,0 +1,10 @@
+# codemind-python
+l=list(map(str,input().split()))
+c=0
+ss='aeiouAEIOU'
+for s in l:
+    n=len(s)
+    for i in range(n):
+        if s[i]in ss and s[n-i-1] not in ss :#or l[n-i-1] in ss and l[i] not in ss:
+            c=c+1
+print(c)
