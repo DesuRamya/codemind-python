@@ -1,0 +1,9 @@
+# codemind-python
+s=input()
+l=[]
+for i in s:
+    if ord(i)!=32:
+        l.append(ord(i))
+mi=min(l)
+ma=max(l)
+print(chr(mi),s.count(chr(mi)),chr(ma),s.count(chr(ma)))
