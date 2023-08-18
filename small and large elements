@@ -1,0 +1,11 @@
+# codemind-python
+l=list(map(str,input().split()))
+ll=[]
+for i in l[0]:
+    ll.append(i)
+ll.sort()
+lla=[]
+for i in l[len(l)-1]:
+    lla.append(i)
+lla.sort()
+print(ll[0],lla[len(lla)-1])
