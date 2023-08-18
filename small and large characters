@@ -1,0 +1,7 @@
+# codemind-python
+l=list(map(str,input().split()))
+for s in l:
+    ll=[]
+    for i in s:
+        ll.append(ord(i))
+    print(chr(min(ll)),chr(max(ll)),end=' ')
