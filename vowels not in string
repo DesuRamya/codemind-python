@@ -1,0 +1,12 @@
+# codemind-python
+s=input()
+v='aeiou'
+d=[]
+for i in s:
+    if i in v and i not in d:
+        d.append(i)
+if len(d)==5:
+    print('0')
+for i in v:
+    if i not in d:
+        print(i,end=' ')
