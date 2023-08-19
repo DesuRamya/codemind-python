@@ -1,0 +1,5 @@
+# codemind-python
+s=input()
+s2=str.lower(s)
+s1=s2[::-1]
+print(s1==s2)
