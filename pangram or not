@@ -1,0 +1,9 @@
+# codemind-python
+s=input()
+s1=str.lower(s)
+l=[]
+for i in s1:
+    if ord(i)!=32:
+        l.append(i)
+se=set(l)
+print(len(se)==26)
