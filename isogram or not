@@ -1,0 +1,13 @@
+# codemind-python
+s=input()
+l=[]
+for i in range(len(s)):
+    for j in range(len(s)):
+        if i!=j and s[i]==s[j]:
+            l.append(0)
+        else:
+            l.append(1)
+if 0 in l:
+    print('False')
+else:
+    print('True')
