@@ -1,0 +1,16 @@
+# codemind-python
+n,m=map(int,input().split())
+lr=[]
+lc=[]
+ll=[]
+su=0
+for i in range(n):
+    l=list(map(int,input().split()))
+    s=sum(l)
+    lr.append(s)
+    ll.append(l)
+for i in range(n):
+    for j in range(n):
+        su=su+ll[j][i]
+        lc.append(su)
+print(max(lr))
