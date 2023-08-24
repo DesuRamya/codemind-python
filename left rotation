@@ -1,0 +1,14 @@
+# codemind-python
+n,m=map(int,input().split())
+l=list(map(int,input().split()))
+if len(l)<m:
+    for i in l:
+        print(i,end=' ')
+else:
+    for j in range(m):
+        last=l[0]
+        for i in range(n-1):
+            l[i]=l[i+1]
+        l[n-1]=last
+    for i in l:
+        print(i,end=' ')
