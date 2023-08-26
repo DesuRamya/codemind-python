@@ -1,0 +1,14 @@
+# codemind-python
+Product of array except self
+
+n=int(input())
+l=list(map(int,input().split()))
+nl=[]
+for i in l:
+    p=1
+    for j in l:
+       p=p*j
+    p=p//i
+    nl.append(p)
+for i in nl:
+    print(i,end=' ')
