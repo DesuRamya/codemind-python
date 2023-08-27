@@ -1,0 +1,11 @@
+# codemind-python
+n=int(input())
+l=list(map(int,input().split()))
+c=res=0
+for i in range(n):
+    if l[i]==0:
+        c=0
+    else:
+        c=c+1
+        res=max(res,c)
+print(res)
