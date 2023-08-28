@@ -1,0 +1,8 @@
+N# codemind-python
+l=list(map(str,input().split()))
+su=0
+for i in l:
+    for j in i:
+        if j.isdigit():
+            su=su+int(j)
+print(su)
