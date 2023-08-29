@@ -1,0 +1,8 @@
+# codemind-python
+s=input()
+for i in range(len(s)):
+    if s.count(s[i])==1:
+        print(i)
+        break
+    if i==len(s)-1:
+        print(-1)
