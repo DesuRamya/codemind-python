@@ -1,0 +1,10 @@
+# codemind-python
+l=['sunday','monday','tuesday','wednesday','thursday','friday','saturday','kryptonday','coluday','daxamday']
+n=int(input())
+for i in range(n):
+    m=int(input())
+    if m>296:
+        x=m//296
+        m=m-x*296
+    r=m%10
+    print(l[r])
