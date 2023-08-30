@@ -1,0 +1,4 @@
+t# codemind-python
+n=input()
+r=n.count('1')
+print(r)
