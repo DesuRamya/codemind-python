@@ -1,5 +1,5 @@
-t=int(input())
-s=int(input())
+a=int(input())
 b=int(input())
-c=t*s*b
-print(c,"KB")
+c=int(input())
+r=a*b*c
+print(r,"KB")
