@@ -1,0 +1,4 @@
+n=int(input())
+h=n//60
+s=n-(h*60)
+print(h,"Hour(s)",s,"Minute(s)")
