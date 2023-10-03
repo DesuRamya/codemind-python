@@ -1,0 +1,4 @@
+n=int(input())
+s=6*(n**2)
+a=n**3
+print("Surface area =",s,"and Volume =",a)
