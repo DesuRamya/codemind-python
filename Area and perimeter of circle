@@ -1,0 +1,5 @@
+n=int(input())
+a=3.14*n*n
+p=2*3.14*n
+print(format(a,".2f"))
+print(format(p,".2f"))
